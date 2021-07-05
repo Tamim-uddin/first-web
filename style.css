@@ -76,6 +76,7 @@ section{
 
 
 a:link, a:visited{
+    text-decoration:none;
     color:white;
     font-size:20px;
     border-radius:4px;
@@ -87,7 +88,3 @@ a:link, a:visited{
 .rightside button:hover{
     background: linear-gradient(#DB7093,#FFB6C1);
 }
-
-
-a:link{
-    text-decoration:none;
