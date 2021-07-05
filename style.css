@@ -73,7 +73,9 @@ section{
     padding-bottom: 5px;
     font-weight:bold;
 }
-.rightside button{
+
+
+a:link, a:visited{
     color:white;
     font-size:20px;
     border-radius:4px;
@@ -82,12 +84,10 @@ section{
     padding:10px;
     background: linear-gradient(	#FFB6C1,#DB7093);
 }
-a:link{
-    text-decoration:none;
-}
-a:visited{
-    color:white;
-}
 .rightside button:hover{
     background: linear-gradient(#DB7093,#FFB6C1);
 }
+
+
+a:link{
+    text-decoration:none;
