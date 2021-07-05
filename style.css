@@ -3,6 +3,9 @@ body{
     padding:0;
     box-sizing:border-box;
 }
+html{
+    font-size: 60.5%;
+}
 .header-site{
     width:100%;
     height:100vh;
@@ -12,65 +15,66 @@ body{
 }
 nav{
     width:100%;
-    height:100px;
+    height:10rem;
     display:flex;
 }
 .logo{
-    margin-left: 30px;
-    margin-top: 5px;
-    font-size: 20px;
+    margin-left: 3rem;
+    margin-top: .5rem;
+    font-size: 2rem;
     color:white;
     width:50%;
-    height:100px;
+    height:10rem;
     text-transform: uppercase;
 }
 .menu{
     width:50%;
-    height:100px;
-    margin-top: 20px;
+    height:10rem;
+    margin-top: 2rem;
     color:white;
 }
 .menu ul{
     width:100%;
-    height:100px;
+    height:10rem;
     display:flex;
 }
 .menu ul li{
     width:100%;
-    height:100px;
+    height:10rem;
     list-style:none;
     weight:bold;
+    font-size: 1.7rem;
 }
 section{
     display:flex;
 }
 .leftside{
-    margin-left:150px;
-    margin-top:30px;
+    margin-left:10rem;
+    margin-top:1.5rem;
     overflow:hidden;
     width:50%;
     height:auto;  
 }
 .leftside img{
-    height:600px;
-    weight:500px;
+    height:62rem;
+    weight:52rem;
 }
 
 .rightside{
     text-align:center;
     color:white;
-    margin-top:150px;
-    padding:40px;
+    margin-top:15rem;
+    padding:3.5rem;
     width:45%;
-    height:300px;
+    height:30rem;
 }
 .rightside h1{
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: bold;
 }
 .rightside p{
-    font-size: 20px;
-    padding-bottom: 5px;
+    font-size: 2rem;
+    padding-bottom: .5rem;
     font-weight:bold;
 }
 
@@ -78,13 +82,24 @@ section{
 a:link, a:visited{
     text-decoration:none;
     color:white;
-    font-size:20px;
-    border-radius:4px;
+    font-size:2rem;
+    border-radius:.4rem;
     text-transform: uppercase;
     font-weight: bold;
-    padding:10px;
+    padding:1rem;
     background: linear-gradient(	#FFB6C1,#DB7093);
 }
 .rightside button:hover{
     background: linear-gradient(#DB7093,#FFB6C1);
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+
+}
+@media(max-width:768px){
+    html{
+        font-size:45%
+    }
 }
