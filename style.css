@@ -16,12 +16,13 @@ nav{
     display:flex;
 }
 .logo{
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 5px;
     font-size: 20px;
     color:white;
     width:50%;
     height:100px;
+    text-transform: uppercase;
 }
 .menu{
     width:50%;
@@ -38,6 +39,7 @@ nav{
     width:100%;
     height:100px;
     list-style:none;
+    weight:bold;
 }
 section{
     display:flex;
@@ -57,7 +59,7 @@ section{
 .rightside{
     text-align:center;
     color:white;
-    margin-top:200px;
+    margin-top:150px;
     padding:40px;
     width:45%;
     height:300px;
@@ -79,7 +81,12 @@ section{
     font-weight: bold;
     padding:10px;
     background: linear-gradient(	#FFB6C1,#DB7093);
-    
+}
+a:link{
+    text-decoration:none;
+}
+a:visited{
+    color:white;
 }
 .rightside button:hover{
     background: linear-gradient(#DB7093,#FFB6C1);
