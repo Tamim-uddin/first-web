@@ -39,3 +39,48 @@ nav{
     height:100px;
     list-style:none;
 }
+section{
+    display:flex;
+}
+.leftside{
+    margin-left:150px;
+    margin-top:30px;
+    overflow:hidden;
+    width:50%;
+    height:auto;  
+}
+.leftside img{
+    height:600px;
+    weight:500px;
+}
+
+.rightside{
+    text-align:center;
+    color:white;
+    margin-top:200px;
+    padding:40px;
+    width:45%;
+    height:300px;
+}
+.rightside h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.rightside p{
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-weight:bold;
+}
+.rightside button{
+    color:white;
+    font-size:20px;
+    border-radius:4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:10px;
+    background: linear-gradient(	#FFB6C1,#DB7093);
+    
+}
+.rightside button:hover{
+    background: linear-gradient(#DB7093,#FFB6C1);
+}
